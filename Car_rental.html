@@ -1,0 +1,148 @@
+<html>
+    <title>CAR RENTAL</title>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+<style>
+    body{
+        background-image: url("car-rental_bnr-1.jpg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    .Oneway{
+        font-weight: bold;
+        padding-left:20%;
+        padding-top:10%;
+    }
+    
+    .titlepadding{
+        padding-top:23px;
+        padding-left:5px;
+        color:rgb(63, 61, 61);
+        font-weight:bolder;
+    }
+    .CityStyle{
+        padding-top:5%;
+        font-weight: bolder;
+    }
+    .dropdown{
+        padding-top:20px;
+        height:1cm;
+        width:180px;
+    }
+    .Submit{
+        font-weight: bolder;
+        background-color: rgb(2, 78, 240);
+        color:white;
+        height:1cm;
+         width:150px;
+    }
+    .padding{
+        padding-top: 10%;
+        padding-left:10px;
+    }
+    .TypeCarTitle{
+        padding-top: 40px; 
+        text-align: center;
+    }
+    
+</style>
+</head>
+<body>
+    <div class="padding">
+    <div style="padding-top:20%;">
+        <div class="row" style="height:150px;border:5px solid black; border-radius: 20%;">
+            <div class="col col-sm-3 RowAndCol" >
+                <h3 class="titlepadding">From</h3>
+                <div class="form-group dropdown">
+                    <select class="form-select">
+                    <optgroup label="Popular cities">
+                    <option><h2 class="CityStyle"> Delhi </h2></option>
+                    <option><h2 class="CityStyle"> Ahmedabad </h2></option>
+                    <option><h2 class="CityStyle"> Surat </h2></option>
+                    <option><h2 class="CityStyle"> Amritsar </h2></option>
+                    <option><h2 class="CityStyle"> Firozpur </h2></option>
+                    <option><h2 class="CityStyle"> Moga </h2></option>
+                    <option><h2 class="CityStyle"> Hyderabad </h2></option>
+                    <option><h2 class="CityStyle"> Bengaluru </h2></option>
+                    <option><h2 class="CityStyle"> Ludhiana </h2></option>
+                    
+                    </optgroup>
+                    </select>
+                </div><br/><br/>
+            </div>
+            <div class="col col-sm-3 RowAndCol">
+                <h3 class="titlepadding">To</h3>
+                <div class="form-group dropdown">
+                    <select class="form-select">
+                    <optgroup label="Popular cities">
+                    <option><h2 class="CityStyle"> lakshadweep </h2></option>
+                    <option><h2 class="CityStyle"> Kerala </h2></option>
+                    <option><h2 class="CityStyle"> Mumbai </h2></option>
+                    <option><h2 class="CityStyle"> Kasol </h2></option>
+                    <option><h2 class="CityStyle"> Goa </h2></option>
+                    </optgroup>
+                    </select>
+                </div><br/><br/>
+                
+            </div>
+            <div class="col col-sm-3  RowAndCol">
+                <h3 class="titlepadding">Depart Date</h3>
+                <label style="color:grey; padding-top:20px; ">Add Date<input type="date" name="dob" min="2023-10-01"></label>
+        
+            </div>
+            <div class="col col-sm-3 RowAndCol">
+                <h3 class="titlepadding">Return</h3>
+                <label style="color:grey; padding-top:20px;">Add Date<input type="date" name="dob" min="2023-10-01"></label>
+        
+                
+            </div>
+            
+            
+        </div>
+        </div>
+    </div>
+    <div style="padding-top:100px;">
+        <div class="row" style="height:450px; background-color:rgb(244, 241, 241);">
+           
+            <div class="col col-sm-2.5 TypeCarTitle">
+                <h3 style="font-weight: bolder;">City Car</h3>
+                <h6 style="color: grey;">These range from compact and fuel efficient city to eco-friendly model</h6>
+                <br>
+                <a href="City_Car.html" style="color:green; font-weight: bold;">See more</a><br><br>
+                <a href="City_Car.html"><img src="Red_polo.jpg.webp" alt="Not Found" height="200px" width="270px"></a>
+            </div>
+            <div class="col col-sm-2.5 TypeCarTitle">
+                <h3 style="font-weight: bolder;">Electric Car</h3>
+                <h6 style="color: grey;">Discover our model of electric,hybrid vehicles</h6>
+                <br>
+                <a href="Electric_Car.html" style="color:green; font-weight: bold;">See more</a><br><br>
+                <a href="Electric_Car.html"><img src="Electric car.png" alt="Not Found" height="200px" width="270px"></a>
+            </div>
+            <div class="col col-sm-2.5 TypeCarTitle">
+                <h3 style="font-weight: bolder;">Luxury Car</h3>
+                <h6 style="color: grey;">You can choose a wide range of luxary cars made by legendary manufacturers</h6>
+                <br>
+                <a href="Luxury.html" style="color:green; font-weight: bold;">See more</a><br><br>
+                <a href="Luxury.html"><img src="silver-mercedes-side-view-25365654.jpg.webp" alt="Not Found" height="200px" width="270px"></a>
+            </div>
+            <div class="col col-sm-2.5 TypeCarTitle">
+                <h3 style="font-weight: bolder;">Van & Truck</h3>
+                <h6 style="color: grey;">You're looking for SUV for your business or group</h6>
+                <br>
+                <a href="SUV.html" style="color:green; font-weight: bold;">See more</a><br><br>
+                <a href="SUV.html"><img src="SUV.jpg" alt="Not Found" height="200px" width="270px"></a>
+            </div>
+            
+        </div>
+    </div>
+    <br><br><br><br><br><br>
+</body>
+</html>
