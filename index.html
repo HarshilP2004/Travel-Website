@@ -1,410 +1,92 @@
-<html>
-    <title>TRAVEL WEBSITE</title>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+  <title>LOGIN PAGE</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
 <style>
-    .topcolor{
-        background-image:linear-gradient(rgba(6, 6, 126, 0.747) 100%,white 0%);
+    body{
+        background-image:url("backgroundImage.webp");
+    }
+    .font{
+        color:white;
     }
     .padding{
-        padding-left:10%;
-        padding-right:10%;
-    }   
-    .FindYourNextStay{
-        font-size:40px;
-        font-weight: bold;
+        padding-top:50px;
     }
-    .FindYourNextStay:hover{
-        font-size: 40px;
-        font-weight: 900;
+    .TextColor{
+        color:whitesmoke;
     }
-    .SeachLowPriceOnHotelsHomesAndMuchMore{
-        padding-top:1px;
-        font-size:25px;
-        color:white;
+    .style{
+        width:400px;
     }
-    .SeachLowPriceOnHotelsHomesAndMuchMore:hover{
-        padding-top:1px;
-        font-size:25px;
-        color:white;
-        font-weight: 800;
+    .SubmitText{
+        background-color:rgb(3, 174, 160);
     }
-    .carousel11{
-        padding-left:30px;
+    #paddingfortext{
+        padding-top:20px;
     }
-    .BackgroundImage{
-        background-image:url(TravelAndTour.jpeg);
+    .transparent{
+        opacity:1;
     }
-    .titlecolor{
-        background-color:lightgray;
-        font-family: serif;
-    } 
-    .checked {
+    .fontstyleforfooter{
+        font-family: cursive;
+    }
+    .fontstylefortitle{
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .index{
+        z-index:28px;
+        position: relative;
+    }
+    .form{
+        height:500px;
+        width:700px;
+        /* background-image: url(Mountain.jpg.avif);
+        background-repeat: no-repeat; */
+    }
+    .loginIndex{
+        position:relative;
+        z-index:2;
+    }
+    .FormZ-Index{
+        position: relative;
+        z-index:1;
+    }
+    .LoginColor{
+        display:inline;
+        color: green;
+    }
+    .TravelColor{
+        display:inline;
         color: orange;
     }
-    .TitleForLakshadweep{
-        font-family: Georgia, 'Times New Roman', Times, serif;
-    }
-    /* .FindYourNextStay:hover{
-        font-size: xx-large;
-    } */
-    .backgroundColor{
-        background-color: white;
-    }
-    .LearnMore{
-        height: 50px;
-        width: 150px;
-        background-color: purple; 
+    .Tocolor{
+        display:inline;
         color: white;
-        text-align: center; 
-        padding-top: 3%; 
-        border:3px solid black; 
-        border-radius: 70%;
-    }.MFontColor{
-        display: inline;
-        color:rgb(244, 0, 0);
-        font-size: 25px;
     }
-
-
-    
 </style>
-<script type="text/javascript" language="javascript">
-    function ForLakshadweep()
-    {
-        alert("Lakshadweep, the group of 36 islands is known for its exotic and sun-kissed beaches and lush green landscape. The name Lakshadweep in Malayalam and Sanskrit means ‘a hundred thousand islands’. ”India’s smallest Union Territory Lakshadweep is an archipelago consisting of 36 islands with an area of 32 sq km. It is a uni-district Union Territory and comprises of 12 atolls, three reefs, five submerged banks and ten inhabited islands. The islands have a total area of 32 sq km. The capital is Kavaratti and it is also the principal town of the UT. All Islands are 220 to 440 km away from the coastal city of Kochi in Kerala, in the emerald Arabian Sea. The natural landscapes, the sandy beaches, abundance of flora and fauna and the absence of a rushed lifestyle enhance the mystique of Lakshadweep.Only BSNL and Airtel provides telecommunication services to Lakshadweep Islands. BSNL provides connectivity in all 10 inhabited islands where as Airtel provides connectivity to Kavaratti and Agatti islands.")
-    }
-    function ForKerala()
-    {
-        alert("Flanked by the Arabian Sea in the West, the towering Western Ghats in the East and networked by 44 interconnected rivers, Kerala is blessed with a unique set of geographical features that have made it one of the most sought after tourist destinations in Asia. A long shoreline with serene beaches, tranquil stretches of emerald backwaters, lush hill stations and exotic wildlife, are just a few of the wonders that await you once you crossover to the other side. And what's more, each of these charming destinations is only a two hour drive from the other - a singular advantage no other place on the planet can offer. Kerala prides itself for being the flag bearer for not just how a culture can respect its past but also march forward with growth & progress as well. Hundred percent literacy, world-class health care systems, India's lowest infant mortality and highest life expectancy rates are among a few of the milestones that the people of the state are extremely proud of.")
-    }
-    function ForMumbai()
-    {
-        alert("The seven islands that came to constitute Mumbai were home to communities of fishing colonies of the Koli people. For centuries, the islands were under the control of successive indigenous empires before being ceded to the Portuguese Empire and subsequently to the East India Company when in 1661 Charles II of England married Catherine of Braganza and as part of her dowry Charles received the ports of Tangier and Seven Islands of Bombay. During the mid-18th century, Bombay was reshaped by the Hornby Vellard project, which undertook reclamation of the area between the seven islands from the sea. Along with construction of major roads and railways, the reclamation project, completed in 1845, transformed Bombay into a major seaport on the Arabian Sea. Bombay in the 19th century was characterised by economic and educational development. During the early 20th century it became a strong base for the Indian independence movement. Upon India’s independence in 1947 the city was incorporated into Bombay State. In 1960, following the Samyukta Maharashtra Movement, a new state of Maharashtra was created with Bombay as the capital.")
-    }
-    function ForManali()
-    {
-        alert("Situated near the end of valley, Manali is one of the most attractive tourist spot not only of Himachal Pradesh, but of International fame also. Manali is synonymous streams and birdsong, forests and orchards and grandees of snow-capped mountains. Manali is the real starting point of an ancient trade route which crosses the Rohtang and Baralacha passes, and runs via Lahul and Ladakh to Kashmir while divergent road connects it with Spiti. Now the motor link have been provided up to Leh in Jammu & Kashmir, Pangi valley in Chamba and Kaza of Lahul & Spiti. There are regular bus services to these places from Manali during summer season. It is situated at a distance of 45 kms from Kullu. There is an interesting legend about Manali which goes to say that Manu, the author of ’Manu Samhita’, after the great deluge first stepped on the earth from the celestial boat at a place in this land. The particular spot where he established his abode was the present Manali which is regarded as the changed name of ’Manu-Alaya’, the abode of Manu. The temple dedicated to Manu is still existing in the Manali village.")
-    }
-    function ForGoa()
-    {
-        alert("Goa, state of India, comprising a mainland district on the country’s southwestern coast and an offshore island. It is located about 250 miles (400 km) south of Mumbai (Bombay). One of India’s smallest states, it is bounded by the states of Maharashtra on the north and Karnataka on the east and south and by the Arabian Sea on the west. The capital is Panaji (Panjim), on the north-central coast of the mainland district. Formerly a Portuguese possession, it became a part of India in 1962 and attained statehood in 1987. Area 1,429 square miles (3,702 square km). Pop. (2011) 1,457,723.")
-    }
-    function contact_us()
-    {
-        alert("+91 9712942379 \n+91 9825292379")
-    }
-</script>
-</head>
 <body>
-<div class="container-fulid ">
-<div class="BackgroundImage">
-    <div class="topcolor ">
-    <nav class="navbar navbar-expand-sm navbar-dark" style="color:white;padding-left:10%; padding-top:10px; padding-right:10%;">
-        <b>
-            <ul class="navbar-nav nav-pills">
-                <li class="nav-item ">
-                    <h3 class="nav-link"><b style="color:rgb(255, 255, 255);"><p class="MFontColor">M</p>aking <p class="MFontColor">M</p>emories</b></h3>
-                </li>
-                <li class="nav-item" style="padding-left:450px;">
-                     <h6><a class="nav-link" href="#"><b style="color:white;">INR</b></a></h6>
-                 </li>
-                 <li class="nav-item">
-                    <h6><a href="#" class="navbar-brand" style="padding-left:15px;"><img src="download.png"style="width:40px" class="rounded-pill"></a> </h6>
-                </li>
-                <li class="nav-item">
-                    <h6><a class="nav-link" href="#" onclick="contact_us(this)"><b style="color:white;">CONTACT US</b></a></h6>
-                </li>
-                <li class="nav-item">
-                    <h6><a href="LOGIN_PAGE.html" class="nav-link"><b style="color:white;">LOG IN</b></a></h6>
-                </li>
-            </ul>
-        </b>
-    </nav>
-    </div>
-    <div class="topcolor">
-        <nav class="navbar navbar-expand-sm navbar-dark" style="color: white;padding-left:10%; padding-top:10px; padding-right:10%;">
-            <b>
-                <ul class="navbar-nav nab nav-tabs">
-                    <li class="nav-item ">
-                        <h4><a class="nav-link" href="Stays.html"><b style="color:white;">Stays</b></a></h4>
-                    </li>
-                    <li class="nav-item">
-                         <h4><a class="nav-link" href="Flight.html"><b style="color:white;">Flights</b></a></h4>
-                     </li>
-                     <li class="nav-item">
-                        <h4><a class="nav-link" href="Train.html"><b style="color:white;">Train</b></a></h4>
-                    </li>
-                    <li class="nav-item">
-                        <h4><a class="nav-link" href="Car_rental.html"><b style="color:white;">Car Rentals</b></a></h4>
-                    </li>
-                    <li class="nav-item">
-                        <h4><a class="nav-link" href="Attraction.html"><b style="color:white;">Attractions</b></a></h4>
-                    </li>
-                    <!-- <li class="nav-item">
-                        <h4><a class="nav-link" href="#"><b style="color:white;">Airpots Taxis</b></a></h>
-                    </li> -->
-                </ul>
-            </b>
-        </nav>
-    </div>
-        <div class="topcolor">
-            <p class="FindYourNextStay padding text-light">Find your next stay 
-            <div class="SeachLowPriceOnHotelsHomesAndMuchMore padding">Search low prices on hotels, homes and much more...</div>
-</div>
-</div>
-    <div class="titlecolor" align="center">
-       <br><h1>DISCOVERED NEW PLACES!!!</h1><br>
-    </div>
-    <div style="background-color: rgb(244, 237, 237);">
-    <div class="row">
-        <div class="col col-sm-1"></div>
-        <div class="col col-sm-5"> 
-               <!--FOR LAKSHADWEEP -->
-            <div id="lakshadweep" class="carousel slide" data-bs-ride="carousel" >
-                <div class="carousel-indicators">
-                    <button data-bs-target="#lakshadweep" data-bs-slide-to="0" class="active bg-warning"></button>
-                    <button data-bs-target="#lakshadweep" data-bs-slide-to="1" class="bg-warning"></button>
-                    <button data-bs-target="#lakshadweep" data-bs-slide-to="2" class="bg-warning"></button>
-                </div>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="lakshadweep1.jpeg" style="width:100%; height:300px">
-                    </div>
-                    <div class="carousel-item">
-                         <img src="lakshadweep2.avif" style="width:100%; height:300px">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="lakshadweep3.jpeg" style="width:100%; height:300px">
-                    </div>
-                </div>
-                    <button class="carousel-control-prev " data-bs-target="#lakshadweep"data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon"></span>
-                    </button>
-                    <button class="carousel-control-next" data-bs-target="#lakshadweep"data-bs-slide="next">
-                        <span class="carousel-control-next-icon"></span>
-                    </button>
-            </div>
-        </div>
-        <div class="col col-sm-5 backgroundColor">
-                <div style="padding-left:50px; padding-top:5%;" class="TitleForLakshadweep">
-                    <h4 style="color:purple;">Lost in blue, where the sky meets the sea.</h4>
-                    <h6>India's smallest Union Territory Lakshadweep is an archipelago consisting of 36 islands with an area of 32 sq km. It is a uni-district Union Territory and is comprised of 12 atolls, three reefs, five submerged banks and ten inhabited islands.</h6>
-                    <!-- <div style="padding-left:25%; padding-top: 5%;"><div class="LearnMore" onclick="ForLakshadweep(this)">Learn More</div><br><br></div> -->
-                    <a href="LakshadweepInfo.html" style="text-decoration: none; color: white;"><div style="padding-left:25%; padding-top: 5%;"><div class="LearnMore">Learn More</div><br><br></div></a>
-
-                    <h4>Rating:
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star"></span>
-                </h4>
-                </div>
-        </div>
-        <div class="col col-sm-1"></div>
-        </div>
-     <br>
-        <div class="row">
-            <div class="col col-sm-1"></div>
-            <div class="col col-sm-5 backgroundColor">
-                <div style="padding-left:50px; padding-top:5%;" class="TitleForLakshadweep">
-                    <h4 style="color:purple;">Oh, Kerala, you are pure magic.</h4>
-                    <h6>Kerala Tourism has remained unwavering in its commitment to safeguarding the ecological and cultural richness of the state. The theme of this year's (2023) World Tourism Day is 'Tourism and Green Initiatives' and Kerala has been at the forefront of promoting sustainable tourism practices.</h6>
-                    <!-- <div style="padding-left:25%; padding-top: 5%;"><div class="LearnMore" onclick="ForKerala(this)">Learn More</div><br><br></div> -->
-                    <a href="KeralaInfo.html" style="text-decoration: none; color: white;"><div style="padding-left:25%; padding-top: 5%;"><div class="LearnMore">Learn More</div><br><br></div></a>
-
-                    <h4>Rating:
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                </h4>
-                </div>
-            </div>
-        <div class="col col-sm-5">
-                <!-- FOR KERALA -->
-            <div id="kerala" class="carousel slide" data-bs-ride="carousel" >
-                <div class="carousel-indicators">
-                    <button data-bs-target="#kerala" data-bs-slide-to="0" class="active bg-warning"></button>
-                    <button data-bs-target="#kerala" data-bs-slide-to="1" class="bg-warning"></button>
-                    <button data-bs-target="#kerala" data-bs-slide-to="2" class="bg-warning"></button>
-                </div>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="kerala3.jpeg" style="width:100%; height:300px">
-                    </div>
-                    <div class="carousel-item">
-                         <img src="kerala2.webp" style="width:100%; height:300px">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="kerala1.webp" style="width:100%; height:300px">
-                    </div>
-                </div>
-                    <button class="carousel-control-prev " data-bs-target="#kerala"data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon"></span>
-                    </button>
-                    <button class="carousel-control-next" data-bs-target="#kerala"data-bs-slide="next">
-                        <span class="carousel-control-next-icon"></span>
-                    </button>
-            </div>
-        </div>
-            <div class="col col-sm-1"></div>
-        </div>
-         
-        <br>
-        <div class="row">
-            <div class="col col-sm-1"></div>
-            <div class="col col-sm-5">
-                <!-- FOR MUMBAI -->
-                <div id="mumbai" class="carousel slide" data-bs-ride="carousel" >
-                    <div class="carousel-indicators">
-                        <button data-bs-target="#mumbai" data-bs-slide-to="0" class="active bg-warning"></button>
-                        <button data-bs-target="#mumbai" data-bs-slide-to="1" class="bg-warning"></button>
-                        <button data-bs-target="#mumbai" data-bs-slide-to="2" class="bg-warning"></button>
-                    </div>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="mumbai1.webp" style="width:100%; height:300px">
-                        </div>
-                        <div class="carousel-item">
-                             <img src="mumbai2.jpeg" style="width:100%; height:300px">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="mumbai3.webp" style="width:100%; height:300px">
-                        </div>
-                    </div>
-                        <button class="carousel-control-prev " data-bs-target="#mumbai"data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon"></span>
-                        </button>
-                        <button class="carousel-control-next" data-bs-target="#mumbai"data-bs-slide="next">
-                            <span class="carousel-control-next-icon"></span>
-                        </button>
-                </div>
-            </div>
-            <div class="col col-sm-5 backgroundColor">
-                <div style="padding-left:50px; padding-top:5%;" class="TitleForLakshadweep">
-                    <h4 style="color:purple;">The city of dreams.</h4>
-                    <h6>Historical and Cultural Significance: Mumbai has a rich history and cultural significance, which is reflected in its many monuments and landmarks such as the Gateway of India, Chhatrapati Shivaji Terminus, and the Elephanta Caves. These places attract tourists who are interested in exploring the city's</h6>
-                    <!-- <div style="padding-left:25%;"><div class="LearnMore" onclick="ForMumbai(this)">Learn More</div><br><br></div> -->
-                    <a href="MumbaiInfo.html" style="text-decoration: none; color: white;"><div style="padding-left:25%; padding-top: 5%;"><div class="LearnMore">Learn More</div><br><br></div></a>
-                    <h4>Rating:
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star"></span>
-                    <span class="fa fa-star"></span>
-                </h4>
-                </div>
-            </div>
-            <div class="col col-sm-1"></div>
+    <div align="center">
+    <h1 class="padding TextColor fontstylefortitle" style="padding-top: 10%;"><p class="LoginColor">LOGIN</p> <p class="Tocolor">TO</p> <p class="TravelColor">TRAVEL</p></h1><br>
+    <div class="container">
+        <div class="form FormZ-Index">
+           <div class="font" style="padding: 30px;">
+            <!-- <h3 class="loginIndex">LOGIN</h3></div> -->
+            <form method="get" action="Version1.html" class="needs-validated">
+        <label for="EMAIL"><input type="Email"placeholder="Email" class="style form-control" required></label><br><br>
+            <label for="PASSWORD"><input type="password" placeholder="Password" class="style form-control"></label><br><br><br>
+            <label><input type="submit" class="SubmitText style TextColor" placeholder="login"></label><br>
+            <h5 style="color:whitesmoke" id="paddingfortext">Forgot Password?</h5>
+           </form>
         </div>
         <br>
-        <div class="row">
-            <div class="col col-sm-1"></div>
-            <div class="col col-sm-5 backgroundColor">
-                <div style="padding-left:50px; padding-top:5%;" class="TitleForLakshadweep">
-                    <h4 style="color:purple;">Adventures in the magical town of Manali.</h4>
-                    <h6>Manali is synonymous streams and birdsong, forests and orchards and grandees of snow-capped mountains. Manali is the real starting point of an ancient trade route which crosses the Rohtang and Baralacha passes, and runs via Lahul and Ladakh to Kashmir while divergent road connects it with Spiti.</h6>
-                    <!-- <div style="padding-left:25%; padding-top: 5%;"><div class="LearnMore" onclick="ForManali(this)">Learn More</div><br><br></div> -->
-                    <a href="ManaliInfo.html" style="text-decoration: none; color: white;"><div style="padding-left:25%; padding-top: 5%;"><div class="LearnMore">Learn More</div><br><br></div></a>
-                    <h4>Rating:
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                </h4>
-                </div>
-            </div>
-            <div class="col col-sm-5">
-                <!-- FOR MANALI -->
-                <div id="manali" class="carousel slide" data-bs-ride="carousel" >
-                    <div class="carousel-indicators">
-                        <button data-bs-target="#manali" data-bs-slide-to="0" class="active bg-warning"></button>
-                        <button data-bs-target="#manali" data-bs-slide-to="1" class="bg-warning"></button>
-                        <button data-bs-target="#manali" data-bs-slide-to="2" class="bg-warning"></button>
-                    </div>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="manali1.webp" style="width:100%; height:300px">
-                        </div>
-                        <div class="carousel-item">
-                             <img src="manali2.webp" style="width:100%; height:300px">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="manali3.jpeg" style="width:100%; height:300px">
-                        </div>
-                    </div>
-                        <button class="carousel-control-prev " data-bs-target="#manali"data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon"></span>
-                        </button>
-                        <button class="carousel-control-next" data-bs-target="#manali"data-bs-slide="next">
-                            <span class="carousel-control-next-icon"></span>
-                        </button>
-                </div>
-            </div>
-            <div class="col col-sm-1"></div>
-        </div>
-        <br>
-        <div class="row">
-            <div class="col col-sm-1"></div>
-            <div class="col col-sm-5">
-                <!-- FOR GOA -->
-            <div id="goa" class="carousel slide" data-bs-ride="carousel" >
-                <div class="carousel-indicators">
-                    <button data-bs-target="#goa" data-bs-slide-to="0" class="active bg-warning"></button>
-                    <button data-bs-target="#goa" data-bs-slide-to="1" class="bg-warning"></button>
-                    <button data-bs-target="#goa" data-bs-slide-to="2" class="bg-warning"></button>
-                </div>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="goa1.png" style="width:100%; height:300px">
-                    </div>
-                    <div class="carousel-item">
-                         <img src="goa2.jpeg" style="width:100%; height:300px">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="goa3.jpeg" style="width:100%; height:300px">
-                    </div>
-                </div>
-                    <button class="carousel-control-prev " data-bs-target="#goa"data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon"></span>
-                    </button>
-                    <button class="carousel-control-next" data-bs-target="#goa"data-bs-slide="next">
-                        <span class="carousel-control-next-icon"></span>
-                    </button>
-
-            </div>
-        </div>
-        <div class="col col-sm-5 backgroundColor">
-                <div style="padding-left:50px; padding-top:5%;" class="TitleForLakshadweep">
-                    <h4 style="color:purple;">Goa: Where the sun and sea come together.</h4>
-                    <h6>Goa is visited by large numbers of international and domestic tourists each year because of its white-sand beaches, active nightlife, places of worship, and World Heritage-listed architecture.</h6>
-                    <!-- <div style="padding-left:25%; padding-top: 5%;"><div class="LearnMore" onclick="ForGoa(this)">Learn More</div><br><br></div> -->
-                    <a href="GoaInfo.html" style="text-decoration: none; color: white;"><div style="padding-left:25%; padding-top: 5%;"><div class="LearnMore">Learn More</div><br><br></div></a>
-                    <h4>Rating:
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star ">   </span>
-                </h4>
-                </div>
-            </div>
-            <div class="col col-sm-1"></div>
-        </div>
+           <h5 class="font fontstyleforfooter">c 2017 Basic login form All right resereved | Design by Harshil Prajapati</h5>
+    </div>
     </div>
 </div>
-<br>
 </body>
 </html>
